@@ -7,3 +7,9 @@ Inteligencia Artificial, César Lara, Práctica Calificada 1, 2021-I
 + Quispe Amao Renzo Renato
 + Campó Beraún José Javier
 + Jara Ocas Franklin Hamer
+
+### Modulos Utilizados
+* RDFlib
+	> pip install rdflib
+* ontospy
+	> pip install ontospy
