@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:ns1="https://statsroyale.com/es/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="https://statsroyale.com/es/card/Golem">
+    <ns1:quality rdf:resource="https://statsroyale.com/es/epic"/>
+    <rdf:type rdf:resource="https://statsroyale.com/es/giant"/>
+    <ns1:lifepoints>4256</ns1:lifepoints>
+    <ns1:speed rdf:resource="https://statsroyale.com/es/slow"/>
+    <ns1:hurt>259</ns1:hurt>
+    <ns1:objective rdf:resource="https://statsroyale.com/es/building"/>
+    <ns1:damage>103</ns1:damage>
+    <ns1:scope rdf:resource="https://statsroyale.com/es/melee"/>
+    <ns1:level>9</ns1:level>
+    <ns1:name>Gólem</ns1:name>
+    <rdf:type rdf:resource="https://statsroyale.com/es/troop"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://statsroyale.com/es/lifepoints">
+    <rdfs:subPropertyOf rdf:resource="https://statsroyale.com/es/characteristic"/>
+    <rdfs:label>Puntos de vida</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://statsroyale.com/es/dead">
+    <rdfs:subClassOf rdf:resource="https://statsroyale.com/es/troop"/>
+    <ns1:name>Muerto</ns1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://statsroyale.com/es/common">
+    <ns1:name>Común</ns1:name>
+    <rdf:type rdf:resource="https://statsroyale.com/es/quality"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://statsroyale.com/es/legendary">
+    <ns1:name>Legendaria</ns1:name>
+    <rdf:type rdf:resource="https://statsroyale.com/es/quality"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://statsroyale.com/es/air">
+    <rdf:type rdf:resource="https://statsroyale.com/es/objective"/>
+    <ns1:name>Aire</ns1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://statsroyale.com/es/card/X-Bow">
+    <ns1:objective rdf:resource="https://statsroyale.com/es/ground"/>
+    <rdf:type rdf:resource="https://statsroyale.com/es/build"/>
+    <ns1:quality rdf:resource="https://statsroyale.com/es/epic"/>
+    <ns1:level>9</ns1:level>
+    <ns1:name>Ballesta</ns1:name>
+    <ns1:lifepoints>1330</ns1:lifepoints>
+    <ns1:hurt>34</ns1:hurt>
+    <ns1:damage>113</ns1:damage>
+    <ns1:timeoflife>30sec</ns1:timeoflife>
+    <ns1:scope rdf:resource="https://statsroyale.com/es/far"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://statsroyale.com/es/scope">
+    <rdfs:label>Alcance</rdfs:label>
+    <rdfs:subPropertyOf rdf:resource="https://statsroyale.com/es/characteristic"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://statsroyale.com/es/card/Barbarian+Hut">
+    <ns1:scope rdf:resource="https://statsroyale.com/es/melee"/>
+    <ns1:timeoflife>50sec</ns1:timeoflife>
+    <ns1:lifepoints>1144</ns1:lifepoints>
+    <ns1:speed rdf:resource="https://statsroyale.com/es/medium"/>
+    <ns1:quality rdf:resource="https://statsroyale.com/es/rare"/>
+    <rdf:type rdf:resource="https://statsroyale.com/es/build"/>
+    <ns1:objective rdf:resource="https://statsroyale.com/es/ground"/>
+    <ns1:name>Choza de bárbaros</ns1:name>
+    <ns1:level>9</ns1:level>
+    <rdf:type rdf:resource="https://statsroyale.com/es/hut"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://statsroyale.com/es/ground">
+    <rdf:type rdf:resource="https://statsroyale.com/es/objective"/>
+    <ns1:name>Tierra</ns1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://statsroyale.com/es/radio">
+    <rdfs:label>Radio</rdfs:label>
+    <rdfs:subPropertyOf rdf:resource="https://statsroyale.com/es/characteristic"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://statsroyale.com/es/building">
+    <rdf:type rdf:resource="https://statsroyale.com/es/objective"/>
+    <ns1:name>Estructura</ns1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://statsroyale.com/es/veryfast">
+    <ns1:name>Muy Alta</ns1:name>
+    <rdf:type rdf:resource="https://statsroyale.com/es/speed"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://statsroyale.com/es/card/Rocket">
+    <ns1:quality rdf:resource="https://statsroyale.com/es/rare"/>
+    <ns1:objective rdf:resource="https://statsroyale.com/es/ground"/>
+    <rdf:type rdf:resource="https://statsroyale.com/es/spell"/>
+    <ns1:radio>2.0</ns1:radio>
+    <ns1:name>Cohete</ns1:name>
+    <ns1:level>9</ns1:level>
+    <ns1:areadamage>1232</ns1:areadamage>
+    <ns1:lifepoints>None</ns1:lifepoints>
+    <ns1:objective rdf:resource="https://statsroyale.com/es/air"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://statsroyale.com/es/level">
+    <rdfs:label>Nivel</rdfs:label>
+    <rdfs:subPropertyOf rdf:resource="https://statsroyale.com/es/characteristic"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://statsroyale.com/es/damage">
+    <rdfs:subPropertyOf rdf:resource="https://statsroyale.com/es/characteristic"/>
+    <rdfs:label>Daño por segundo</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://statsroyale.com/es/card/Three+Musketeers">
+    <ns1:damage>164</ns1:damage>
+    <rdf:type rdf:resource="https://statsroyale.com/es/human"/>
+    <ns1:scope rdf:resource="https://statsroyale.com/es/near"/>
+    <ns1:hurt>181</ns1:hurt>
+    <ns1:objective rdf:resource="https://statsroyale.com/es/air"/>
+    <ns1:lifepoints>598</ns1:lifepoints>
+    <ns1:objective rdf:resource="https://statsroyale.com/es/ground"/>
+    <ns1:level>9</ns1:level>
+    <ns1:name>Trío de mosqueteras</ns1:name>
+    <ns1:quality rdf:resource="https://statsroyale.com/es/rare"/>
+    <ns1:speed rdf:resource="https://statsroyale.com/es/medium"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://statsroyale.com/es/name">
+    <rdfs:label>Nombre de la carta</rdfs:label>
+    <rdfs:subPropertyOf rdf:resource="https://statsroyale.com/es/characteristic"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://statsroyale.com/es/giant">
+    <ns1:name>Gigante</ns1:name>
+    <rdfs:subClassOf rdf:resource="https://statsroyale.com/es/troop"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://statsroyale.com/es/build">
+    <rdfs:subClassOf rdf:resource="https://statsroyale.com/es/card"/>
+    <ns1:name>Estructuras</ns1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://statsroyale.com/es/rare">
+    <ns1:name>Especial</ns1:name>
+    <rdf:type rdf:resource="https://statsroyale.com/es/quality"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://statsroyale.com/es/timeoflife">
+    <rdfs:domain rdf:resource="https://statsroyale.com/es/spell"/>
+    <rdfs:subPropertyOf rdf:resource="https://statsroyale.com/es/characteristic"/>
+    <rdfs:domain rdf:resource="https://statsroyale.com/es/build"/>
+    <rdfs:label>Tiempo de vida</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://statsroyale.com/es/epic">
+    <ns1:name>Épica</ns1:name>
+    <rdf:type rdf:resource="https://statsroyale.com/es/quality"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://statsroyale.com/es/melee">
+    <ns1:name>Cuerpo a cuerpo</ns1:name>
+    <rdf:type rdf:resource="https://statsroyale.com/es/scope"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://statsroyale.com/es/tower">
+    <rdfs:subClassOf rdf:resource="https://statsroyale.com/es/build"/>
+    <ns1:name>Torre</ns1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://statsroyale.com/es/creature">
+    <ns1:name>Criatura</ns1:name>
+    <rdfs:subClassOf rdf:resource="https://statsroyale.com/es/troop"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://statsroyale.com/es/slow">
+    <ns1:name>Baja</ns1:name>
+    <rdf:type rdf:resource="https://statsroyale.com/es/speed"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://statsroyale.com/es/hut">
+    <ns1:name>Choza</ns1:name>
+    <rdfs:subClassOf rdf:resource="https://statsroyale.com/es/build"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://statsroyale.com/es/dragon">
+    <ns1:name>Dragon</ns1:name>
+    <rdfs:subClassOf rdf:resource="https://statsroyale.com/es/troop"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://statsroyale.com/es/troop">
+    <rdfs:subClassOf rdf:resource="https://statsroyale.com/es/card"/>
+    <ns1:name>Tropas</ns1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://statsroyale.com/es/card/Lightning">
+    <rdf:type rdf:resource="https://statsroyale.com/es/spell"/>
+    <ns1:timeoflife>1.5s</ns1:timeoflife>
+    <ns1:quality rdf:resource="https://statsroyale.com/es/epic"/>
+    <ns1:name>Rayo</ns1:name>
+    <ns1:radio>3.5</ns1:radio>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://statsroyale.com/es/medium">
+    <ns1:name>Media</ns1:name>
+    <rdf:type rdf:resource="https://statsroyale.com/es/speed"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://statsroyale.com/es/quality">
+    <rdfs:label>Calidad</rdfs:label>
+    <rdfs:subPropertyOf rdf:resource="https://statsroyale.com/es/characteristic"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://statsroyale.com/es/fast">
+    <rdf:type rdf:resource="https://statsroyale.com/es/speed"/>
+    <ns1:name>Alta</ns1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://statsroyale.com/es/near">
+    <rdf:type rdf:resource="https://statsroyale.com/es/scope"/>
+    <ns1:name>Cerca</ns1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://statsroyale.com/es/goblin">
+    <rdfs:subClassOf rdf:resource="https://statsroyale.com/es/troop"/>
+    <ns1:name>Duende</ns1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://statsroyale.com/es/human">
+    <ns1:name>Humano</ns1:name>
+    <rdfs:subClassOf rdf:resource="https://statsroyale.com/es/troop"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://statsroyale.com/es/speed">
+    <rdfs:label>Velocidad</rdfs:label>
+    <rdfs:subPropertyOf rdf:resource="https://statsroyale.com/es/characteristic"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://statsroyale.com/es/far">
+    <ns1:name>Lejos</ns1:name>
+    <rdf:type rdf:resource="https://statsroyale.com/es/scope"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://statsroyale.com/es/hurt">
+    <rdfs:label>Daño</rdfs:label>
+    <rdfs:subPropertyOf rdf:resource="https://statsroyale.com/es/characteristic"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://statsroyale.com/es/card">
+    <ns1:name>Carta</ns1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://statsroyale.com/es/objective">
+    <rdfs:label>Objetivo</rdfs:label>
+    <rdfs:subPropertyOf rdf:resource="https://statsroyale.com/es/characteristic"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://statsroyale.com/es/areadamage">
+    <rdfs:label>Daño de área</rdfs:label>
+    <rdfs:subPropertyOf rdf:resource="https://statsroyale.com/es/characteristic"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://statsroyale.com/es/spell">
+    <rdfs:subClassOf rdf:resource="https://statsroyale.com/es/card"/>
+    <ns1:name>Hechizos</ns1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://statsroyale.com/es/charasteristic">
+    <ns1:name>Caracteristicas</ns1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://statsroyale.com/es/magic">
+    <ns1:name>Mágico</ns1:name>
+    <rdfs:subClassOf rdf:resource="https://statsroyale.com/es/troop"/>
+  </rdf:Description>
+</rdf:RDF>
